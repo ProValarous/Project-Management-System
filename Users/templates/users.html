@@ -1,1 +1,39 @@
-<h1>We are at Users Pages</h1>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Add User</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="page_header">
+        <h1>Add User</h1>
+    </div>
+    <div class="form_details">
+        <form action="#" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br><br>
+
+        <!-- radial entry start    -->
+        Select Project Role:<br>
+        <input type="radio" id="project_manager" name="project_roles" value="Project Manager">
+        <label for="project_manager">Project Manager</label><br>
+
+        <input type="radio" id="scrum_master" name="project_roles" value="Scrum Master">
+        <label for="scrum_master">Scrum Master</label><br>
+
+        <input type="radio" id="developer" name="project_roles" value="Developer">
+        <label for="developer">Developer</label><br><br>
+        <!-- radial entry end    -->    
+
+        <label for="linkedin_profile">LinkedIn Profile:</label>
+        <input type="url" id="linkedin_profile" name="linkedin_profile" required><br><br>
+
+        <input type="submit" value="Add User">
+        </form>
+    </div>
+  </body>
+</html>

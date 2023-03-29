@@ -1,1 +1,107 @@
-<h1>We are at DashBoard Page</h1>
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Project Management System</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+      body {
+        background-color: #f2f2f2;
+        font-family: Arial, sans-serif;
+      }
+      
+      #header {
+        background-color: #2c3e50;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+      
+      #main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 20px;
+      }
+      
+      .card {
+        background-color: white;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        margin: 20px;
+        padding: 20px;
+        width: 300px;
+      }
+      
+      .card h2 {
+        color: #2c3e50;
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+      
+      .card p {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 10px;
+      }
+      
+      .card a {
+        background-color: #2c3e50;
+        border-radius: 5px;
+        color: white;
+        display: block;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        transition: background-color 0.3s;
+      }
+      
+      .card a:hover {
+        background-color: #34495e;
+      }
+      
+      footer {
+        background-color: #2c3e50;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="header">
+      <h1>Project Management System</h1>
+    </div>
+    
+    <div id="main">
+      <div class="card">
+        <h2>Create a New Project</h2>
+        <p>Start a new project and assign tasks to your team members.</p>
+        <a href="#">Create Project</a>
+      </div>
+      
+      <div class="card">
+        <h2>View Your Projects</h2>
+        <p>View a list of all your projects and their current status.</p>
+        <a href="#">View Projects</a>
+      </div>
+      
+      <div class="card">
+        <h2>Manage Your Tasks</h2>
+        <p>Assign tasks to team members and keep track of their progress.</p>
+        <a href="#">Manage Tasks</a>
+      </div>
+      
+      <div class="card">
+        <h2>Collaborate with Your Team</h2>
+        <p>Communicate with your team members and share project files.</p>
+        <a href="#">Collaborate Now</a>
+      </div>
+    </div>
+    
+    <footer>
+      <p>Copyright © 2023 Project Management System.
+      All rights reserved.</p>
+    </footer>
+  </body>
+</html>
